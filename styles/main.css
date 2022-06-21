@@ -1,0 +1,27 @@
+/* .shop {
+    border: 1px dotted rgb(20, 220, 153);
+    padding: 1em;
+    margin: 0.5em;
+}
+.list {
+    display: flex;  /* Display the child items in a Flex layout */
+/* } */
+
+.street{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  /* Display the child items in a Flex layout */
+}
+
+.shop {
+    flex-basis: 16%;
+    border: 3px dotted rgb(220, 20, 187);
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center; /* Center align the text in the boxes */
+}
