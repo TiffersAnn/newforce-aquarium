@@ -1,27 +1,71 @@
-/* .shop {
-    border: 1px dotted rgb(20, 220, 153);
-    padding: 1em;
-    margin: 0.5em;
-}
-.list {
-    display: flex;  /* Display the child items in a Flex layout */
-/* } */
-
-.street{
+.pageHeader{
     text-align: center;
-    font-size: 2.5em;
+    font-size: x-large;
 }
 
-.list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;  /* Display the child items in a Flex layout */
-}
-
-.shop {
-    flex-basis: 16%;
-    border: 3px dotted rgb(220, 20, 187);
+.fishInfo {
+    
+    border: 3px solid rgb(73, 223, 103);
     padding: 1em;
-    margin: 0.5em;
-    text-align: center; /* Center align the text in the boxes */
+    display: flex;
+    /* justify-content: space-around; */
+    
+    /* display: flex;
+    flex-direction: row; */
+        
+}
+
+.fishList {
+    display: flex;
+    flex-direction: row; 
+    /* justify-content: space-between; */
+    
+    /* flex: 25%; */
+    /* padding: 5px; */
+        
+}   
+
+img {
+    border: 2px solid black;
+    width: 128px;
+    height: 128px;
+    margin: 5px;
+    
+}
+
+
+
+
+.quotes {
+    border: 3px solid black;
+    background-color: aqua;
+    padding: 1em;
+}
+
+.locations {
+    border: 3px solid blue; 
+    background-color: aqua;
+    /* padding: 1em; */
+
+}
+#thoughtsTips {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    border: 3px solid rgb(54, 44, 197);
+    background-color: lightgreen;
+     
+}
+
+.sidebar {
+    float: right;
+    width: 25%;
+}
+
+.mainLayout {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 70%;
+    
 }
